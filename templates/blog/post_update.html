@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+
+{% block content %}
+    <div class="card mb-3 border-0 nth-shadow">
+        <div class="card-body">
+            <div class="card-title nth-card-title">
+                <h4>Обновление статьи: {{ post.title }}</h4>
+            </div>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% for line in form %}
+                    {% if line != form.thumbnail %}
+                        <p>{{ line }}</p>
+                    {% else %}
+
+                        <p class="mb-5"></p>
+                        {% if post.thumbnail %}
+                            {{ line }}
+                            <img src="{{ post.thumbnail.url }}" class="img-thumbnail" alt="{{ post.title }}" width="200">
+                            <p>{{ article.image.url }}</p>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                <div class="d-grid gap-2 d-md-block mt-2">
+                    <button type="submit" class="btn btn-dark">Обновить статью</button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
