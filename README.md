@@ -1,6 +1,6 @@
 #🖼️ Picture Blog Project (English Version)
 ##✨ About the Project
-Picture Blog Project is a platform for blogging with a focus on images. Users can create posts, organize them by tags and categories, and like the content they enjoy. The project is built on PostgreSQL, and the interface is designed with Bootstrap for ease of use.
+Picture Blog Project is a platform for blogging with a focus on images. Users can create posts, organize them by tags and categories, and like the content they enjoy. The project is built on SQLite, and the interface is designed with Bootstrap for ease of use.
 
 ##🔥 The main idea of the project is to make blogging intuitive and content interaction as convenient as possible. The flexible system of tags and categories allows users to easily structure their content, and likes help highlight the most popular posts. It’s an excellent tool for personal use as well as for creating interest-based communities.
 
@@ -57,7 +57,6 @@ The blog will be available at: http://127.0.0.1:8000
 ✔ Upload images
 ✔ Tagging and categorization system
 ✔ Likes and content interaction
-✔ REST API for integration
 ✔ Responsive interface (Bootstrap)
 ✔ Django Admin for blog management
 
@@ -75,7 +74,7 @@ If you have any questions or ideas, feel free to reach out! 🎨
 
 #🖼️ Picture Blog Project (Ukrainian Version)
 ##✨ Про проєкт
-Picture Blog Project — це платформа для ведення блогу з акцентом на зображення. Користувачі можуть створювати пости, сортувати їх за тегами та категоріями, а також ставити лайки на цікавий контент. Проєкт побудований на PostgreSQL, а інтерфейс розроблений із використанням Bootstrap для зручності користувачів.
+Picture Blog Project — це платформа для ведення блогу з акцентом на зображення. Користувачі можуть створювати пости, сортувати їх за тегами та категоріями, а також ставити лайки на цікавий контент. Проєкт побудований на SQLite, а інтерфейс розроблений із використанням Bootstrap для зручності користувачів.
 
 ##🔥 Основна ідея проєкту — зробити ведення блогу інтуїтивно зрозумілим, а взаємодію з контентом максимально зручною. Гнучка система тегів і категорій дозволяє користувачам легко структуризувати свій контент, а лайки допомагають знаходити найпопулярніші публікації. Це чудовий інструмент як для особистого використання, так і для створення спільнот за інтересами.
 
@@ -132,7 +131,6 @@ python manage.py runserver
 ✔ Завантаження зображень
 ✔ Система тегів та категорій
 ✔ Лайки та взаємодія з контентом
-✔ REST API для інтеграцій
 ✔ Адаптивний інтерфейс (Bootstrap)
 ✔ Адмін-панель Django для управління блогом
 
@@ -205,7 +203,6 @@ python manage.py runserver
 ✔ **Загрузка изображений**  
 ✔ **Система тегов и разделов**  
 ✔ **Лайки и взаимодействие с контентом**  
-✔ **REST API для интеграции**  
 ✔ **Bootstrap-интерфейс**  
 ✔ **Django Admin для управления блогом**  
 
